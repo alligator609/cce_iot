@@ -27,9 +27,9 @@ void loop() {
   Serial.print("cm");
 
 }
-long microsecondsToInches(long mic){
-  return (mic/74/2);
+long microsecondsToInches(long duration){
+  return (duration/74/2);
 }
-long microsecondsToCm(long mic){
-  return (mic/29/2);
+long microsecondsToCm(long duration){
+  return (duration/29/2);
 }
