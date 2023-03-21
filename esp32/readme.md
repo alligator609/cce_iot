@@ -4,7 +4,7 @@
 
 ``` https://dl.espressif.com/dl/package_esp32_index.json``` 
  to Additional Boards
-3. Now download esp8266 boards in Tools>Board>Board manager, and select esp32 board.
+3. Now download esp32 boards in Tools>Board>Board manager, and select esp32 board.
 
 4. pinoutput link
 https://content.instructables.com/F87/VZQL/IQYT2CSN/F87VZQLIQYT2CSN.png?auto=webp&frame=1&fit=bounds&md=3980a147e4020ea390d7bd014d690bc9
