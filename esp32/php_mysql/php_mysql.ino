@@ -17,7 +17,7 @@ const char* ssid     = "Alligator";
 const char* password = "123456677";
 
 // REPLACE with your Domain name and URL path or IP address with path
-const char* serverName = "http://192.168.68.102/php_mysql/index.php";
+const char* serverName = "http://192.168.43.95/php_mysql/index.php";
 
 // Keep this API Key value to be compatible with the PHP code provided in the project page. 
 // If you change the apiKeyValue value, the PHP file /post-esp-data.php also needs to have the same key 
@@ -67,7 +67,7 @@ void loop() {
     // Prepare your HTTP POST request data
     String httpRequestData = "api_key=" + apiKeyValue + "&sensor=" + sensorName
                           + "&location=" + sensorLocation + "&value1=" + String(dummyData1)
-                          + "&value2=" + String(dummyData2) + "&value3=" + String(dummyData3/100.0F) + "";
+                          + "&value2=" + String(dummyData2) + "&value3=" + String(dummyData3) + "";
     Serial.print("httpRequestData: ");
     Serial.println(httpRequestData);
     
